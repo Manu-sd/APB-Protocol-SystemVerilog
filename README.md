@@ -163,13 +163,4 @@ Arm's current specifications use **Requester** and **Completer** rather than Mas
 Slave. Module names here keep the legacy terms for continuity; comments use the
 current terminology.
 
-## Next step toward APB5
-
-APB5 (Issue D/E) adds `PWAKEUP` (wake-up signaling), the user sideband signals
-(`PAUSER`, `PWUSER`, `PRUSER`, `PBUSER`), interface parity protection, and — in Issue E —
-Realm Management Extension support. All are optional, so this APB4 design is legal on
-an APB5 interconnect with those inputs tied off.
-
-## Author
-
 Manu S D — Team Zenther
